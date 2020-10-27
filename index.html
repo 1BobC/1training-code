@@ -2,12 +2,72 @@
 <html>
 
 <head>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1training-divs-forms</title>
+    <link rel="stylesheet" href="reset.CSS" />
+    <link rel="stylesheet" href="style.CSS" />
+<style>
+    .center{
+        margin: auto;
+        width: 60%;
+        border: 3px solid #73ad21;
+        padding: 10px;
+        text-align: center;
+    }
+    .center1{
+        margin: auto;
+        width: 60%;
+        
+        padding: 10px;
+        text-align: center;
+    }
+</style>
 </head>
 
 <body>
-<ul></ul>
+    <div style= "position: relative; left:40px; top:25px; background-color: yellow;">
+   This div has relative positioning.
+    </div>
+   <div style="position: absolute; left: 100px; bottom: 2px; background-color: green;">
+    This div has absolute positioning.
+    </div>
+    <div style="position: fixed; left: 80px; top: 2px; background-color: blue;">
+    This div has fixed positioning.
+    </div>
+    <div style="position: relative; top: 50px;">
+        <div class="center1">
+    <h2>Center Align Elements and Vertically Position Elements</h2>
+    <p>To horizontally center and vertically position a block element like a div, I have used a div element with position: relative; top: px; 
+        then a div element within that and used margin: auto; 
+         
+    </p>
+    </div>
+</div>
+<div style="position: relative; top: 80px;">
+    <div class="center">
+        <p><b>Note: </b>Using margin works in various ways!.</p>
+    </div>
+</div>
+<div style="position: relative; top: 120px"> 
+    <div class="center1">
+    <form >
+        <label for="bsearch">Search</label>
+        <input type="search" id="bsearch" name="bsearch" style="border-radius: 25px;">
+        <input type="submit" value="Submit">
+      </form>
+      </div>   
+
+</div>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
